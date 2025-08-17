@@ -125,12 +125,12 @@ export default function Portfolio() {
                 Contact Me
               </a>
               <a
-                href="/ATS_resume.pdf"
-                download
-                className="px-5 py-2.5 rounded-2xl bg-slate-700 text-white shadow hover:shadow-md flex items-center gap-2"
-              >
-                📄 Download Resume
-              </a>
+          href={`${import.meta.env.BASE_URL}Deepika_Devaru_Gouda_Resume.pdf`}
+        download
+       className="px-5 py-2.5 rounded-2xl bg-slate-700 text-white shadow hover:shadow-md flex items-center gap-2"
+>
+  📄 Download Resume
+</a>
             </div>
             <div className="mt-6 flex gap-4 text-sm text-slate-600">
               <a href={socials.linkedin} target="_blank" rel="noreferrer" className="hover:underline">LinkedIn</a>
@@ -148,8 +148,8 @@ export default function Portfolio() {
           >
             <div className="relative w-48 h-48 sm:w-60 sm:h-60 rounded-full overflow-hidden border-4 border-white shadow-xl">
               <img
-                src="/photo.jpg"
-                alt="Deepika portrait"
+                src={`${import.meta.env.BASE_URL}photo.jpg`}
+               alt="Deepika portrait"
                 className="w-full h-full object-cover"
               />
             </div>
