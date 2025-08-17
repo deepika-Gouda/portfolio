@@ -2,14 +2,14 @@
   "name": "deepika-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/deepika-Gouda/portfolio.git",
+  "homepage": "https://deepika-Gouda.github.io/portfolio",
 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://github.com/deepika-Gouda/portfolio.git"
   },
   "dependencies": {
     "framer-motion": "^10.16.4",
